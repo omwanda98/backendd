@@ -14,7 +14,7 @@ const redis = require("redis")
 const client = redis.createClient({
   host:'redis-18209.c2.eu-west-1-3.ec2.cloud.redislabs.com',
   port: '18209',
-  password: 'MQmcIo3nJrPCqAJ0gbXOam4nenFAJXmY'
+  password: 'tHWBuIvQageXDWHg302jnU1ZXQejktIE'
 })
 
 
