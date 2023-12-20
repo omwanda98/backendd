@@ -39,7 +39,7 @@ mongoose.connect(dbURI, {
 // First Parameter is the port needed to run ourcode (Server:4000)
 // use cors to allow communication of two different urls (clients,servers)
 const socket_io = require("socket.io")(4000, {
-  origin: "http://localhost:3000",
+  origin: "http://13.51.168.115:8080",
   methods: ["GET", "POST"],
   credentials: true,
 });
