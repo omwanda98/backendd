@@ -12,9 +12,9 @@ const redis = require("redis")
 
 // Creating client for caching
 const client = redis.createClient({
-  host:'redis-18209.c2.eu-west-1-3.ec2.cloud.redislabs.com',
-  port: '18209',
-  password: 'tHWBuIvQageXDWHg302jnU1ZXQejktIE'
+  host:'redis-19300.c226.eu-west-1-3.ec2.cloud.redislabs.com',
+  port: '19300',
+  password: 'Omwanda@23'
 })
 
 
@@ -33,10 +33,7 @@ mongoose.connect(dbURI, {
 //   useUnifiedTopology: true,
 // });
 
-/*
- * To accept receiving messages on port 4000, and reveive messages from port 3000 (frontend) and accept from it GET and POST methods
- */
-// First Parameter is the port needed to run ourcode (Server:4000)
+
 // use cors to allow communication of two different urls (clients,servers)
 const socket_io = require("socket.io")(4000, {
   origin: "http://localhost:3000",
